@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.legal{
+    text-align: justify;
+    padding: 5px;
+}
+
+.texto{
+    padding-top: 10px;
+}
+
+.sub-sub {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.CVMC{
+    font-weight: bold;
+    font-style: normal;
+}

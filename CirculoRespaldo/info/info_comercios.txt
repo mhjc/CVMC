@@ -1,0 +1,80 @@
+* Habitación *
+	- Habitación unifamiliar
+	- Habitación plurifamiliar
+
+* COMERCIO *
+	- Carnicería			- Dulcería		- Bonetería					- Ataúdes
+	- Pollería				- Paletería		- Telas y ropa				- Expendio de pan
+	- Recaudería			- Abarrotes		- Joyería					- Vinatería
+	- Lechería				- Minisuper		- Electrónicos				- Ferretería
+	- Venta de lácteos		- Miscelánea	- Decoración				- Vidriería
+	- Embutidos				- Naturista		- Deportes					- Mueblería
+	- Salchichonería		- Óptica		- Juguetes					- 
+	- Rosticería			- Farmacia		- Mascotas / Veterinaria	- 
+	- Tamalería				- Droguería		- Librería / Papelería		- 
+	- Panadería				- Zapatería		- Tlapalería				- 
+
+* SERVICIOS *
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+
+Banner
+
+- Acerca de nosotros
+
+- Registra tu negocio (Formulario)
+
+- Legal
+	- Aviso de privacidad
+
+
+
+
+
+
+
+
+Abarrotes
+Ataúdes
+Bonetería
+Decoración
+Deportes
+Droguería
+Dulcería
+Electrónicos
+Embutidos
+Expendio de pan
+Farmacia
+Ferretería
+Joyería
+Juguetes
+Lechería
+Librería / Papelería
+Mascotas / Veterinaria
+Minisuper
+Miscelánea
+Mueblería
+Naturista
+Óptica
+Paletería
+Panadería
+Pollería
+Recaudería
+Rosticería
+Salchichonería
+Tamalería
+Telas y ropa
+Tlapalería
+Venta de lácteos
+Vidriería
+Vinatería
+Zapatería
+Carnicería

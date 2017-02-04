@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url('../fonts/flexslider-icon.eot');
+  src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') 
+  format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flexslider {
+    width: 100%;
+    height: 250px;
+    position:relative;
+    padding-top: 40px;
+}
+
+.slides {
+    overflow: hidden;
+}
+
+.flex-caption {
+    position:absolute;
+}
+
+.flexslider ul li img {
+    height: 200px;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex-control-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.flex-control-nav li {
+    display: inline-block;
+    margin: 0px 6px;
+}
+
+.flex-control-nav li a {    /* Círculos bolitas */
+    display: block;
+    background: #AAAAAA;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    text-indent: -9999px;
+}
+
+.flex-control-nav li a:hover { /* Círculo objetivo */
+    background: #2E2E2E;
+}
+
+.flex-control-nav li a.flex-active { /* Círculo activo */
+    background: #2E2E2E;
+}
+
+.flex-direction-nav a {
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    z-index: 999;
+    width: 30px;
+    margin-left: -1px;
+    margin-right: -5px;
+    height: 40px;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.flex-direction-nav .flex-prev {
+    left: 0;
+}
+
+.flex-direction-nav .flex-next {
+    right: 0;
+}
+
+.flex-direction-nav a:before {
+  font-family: "flexslider-icon";
+  font-size: 40px;
+  display: inline-block;
+  content: '\f001';
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(1, 1, 1, 1.0);
+}
+
+.flex-direction-nav a.flex-next:before {
+  content: '\f002';
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev {
+    opacity: 1.0;
+    left: 5px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next {
+    opacity: 1.0;
+    right: 5px;
+}
+
+/* Tablet*/
+
+@media (min-width:768px) {
+    .flexslider {
+        margin-left: 2%;
+        width: 30%;
+        height: 250px;
+        display:inline-block;
+        padding: 1%;
+    }
+    
+    .flex-direction-nav a{
+        top: 35%;
+    }
+}
+
+/* Escritorio */
+
+@media (min-width:1024px) {
+    .flexslider {
+        margin-left: 2%;
+        width: 30%;
+        height: 350px;
+        display:inline-block;
+        padding: 1%;
+    }
+    
+    .flex-direction-nav a{
+        top: 25%;
+        margin-left: 20px;
+        margin-right: 17px;
+    }
+}
